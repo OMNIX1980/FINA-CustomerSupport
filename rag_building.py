@@ -6,10 +6,11 @@ from typing import List, Dict, Any, Optional
 # ----------------------------
 # CONFIG
 # ----------------------------
-PATH_CHUNKS = r"C:\Users\luka\Downloads\fina_company_profile_chunks.jsonl"
-PATH_TRIPLES = r"C:\Users\luka\Downloads\fina_knowledge_graph.jsonl"
-PATH_FAQ    = r"C:\Users\luka\Downloads\fina_faq_prompts.jsonl"
-PATH_SCHEMA = r"C:\Users\luka\Downloads\fina_schema_readme.json"
+PATH_CHUNKS = "fina_company_profile_chunks.jsonl"
+PATH_TRIPLES = "fina_knowledge_graph.jsonl"
+PATH_FAQ     = "fina_faq_prompts.jsonl"
+PATH_SCHEMA  = "fina_schema_readme.json"
+
 
 EMBED_MODEL = "text-embedding-004"   # 768-dim
 CHAT_MODEL  = "gemini-2.5-flash"       # or "gemini-1.5-flash"
