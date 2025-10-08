@@ -16,10 +16,10 @@ genai.configure(api_key=GOOGLE_API_KEY)
 PERSIST_DIR = "./chroma_data"
 os.makedirs(PERSIST_DIR, exist_ok=True)
 
-DEFAULT_PATH_CHUNKS  = r"C:\Users\luka\Downloads\fina_company_profile_chunks.jsonl"
-DEFAULT_PATH_TRIPLES = r"C:\Users\luka\Downloads\fina_knowledge_graph.jsonl"
-DEFAULT_PATH_FAQ     = r"C:\Users\luka\Downloads\fina_faq_prompts.jsonl"
-DEFAULT_PATH_SCHEMA  = r"C:\Users\luka\Downloads\fina_schema_readme.json"
+DEFAULT_PATH_CHUNKS  = "fina_company_profile_chunks.jsonl"
+DEFAULT_PATH_TRIPLES = "fina_knowledge_graph.jsonl"
+DEFAULT_PATH_FAQ     = "fina_faq_prompts.jsonl"
+DEFAULT_PATH_SCHEMA  = "fina_schema_readme.json"
 
 EMBED_MODEL = "text-embedding-004"   # 768-dim
 CHAT_MODEL  = "gemini-2.5-flash"       # or "gemini-1.5-flash"
