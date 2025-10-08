@@ -1,5 +1,9 @@
-streamlit
-google-generativeai
+streamlit>=1.33
+google-generativeai>=0.7
 chromadb==0.5.5
-networkx
-python-dotenv
+networkx>=3.2
+python-dotenv>=1.0
+pydantic>=2.7
+typing_extensions>=4.9
+# Linux-only fallback for SQLite if needed on Cloud
+pysqlite3-binary; platform_system == "Linux"
