@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.pyc
+
+# Virtual env
+.venv/
+
+# Local data & caches
+chroma_data/
+.cache/
+.tmp/
+*.log
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.idea/
+
+# Env/Secrets
+.env
+
+# Streamlit
+.streamlit/
